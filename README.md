@@ -1,2 +1,6 @@
-# ros_2_vision_tutorial
+# intelligent vision RObot
 this repository is based on ROS2
+
+##Nodes
+ - Publisher
+ - Subscriber
