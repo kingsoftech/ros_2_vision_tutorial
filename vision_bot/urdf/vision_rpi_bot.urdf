@@ -1,0 +1,23 @@
+
+<robot name="vision_rpi_bot">
+<link name="base_link">
+  <visual>
+    <geometry>
+      <mesh filename="package://vision_bot/meshes/base.dae" scale="1.0">
+    </geometry>
+  </visual>
+
+  <collision>
+     <geometry>
+     <mesh filename="package://vision_bot/meshes/base.dae" scale="1.0">
+    </geometry>
+  </collision>
+
+  <inertial>
+    <mass value="10"/>
+    <inertia ixx="0.4" ixy="0.0" iyy="0.4" iyz="0.0" izz="0.2"/>
+  </inertial>
+</link>
+
+
+</robot>
