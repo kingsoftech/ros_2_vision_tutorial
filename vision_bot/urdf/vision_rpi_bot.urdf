@@ -4,12 +4,12 @@
     <inertial>
       <mass value="4" />
       <origin xyz="0 0 0.1" rpy="0 0 0" />
-      <inertia ixx="0.00355" iyy="0.01265" izz="0.013832" ixy="0.0" ixz="0.0" iyz="0.0" />
+      <inertia ixx="0.4" iyy="0.4" izz="0.2" ixy="0.0" ixz="0.0" iyz="0.0" />
     </inertial>
 
     <visual>
       <geometry>
-        <mesh filename="package://vision_rpi_bot/meshes/base.dae" />
+        <mesh filename="package://ros_2_vision_tutorial/vision_bot/meshes/base.dae" />
 
       </geometry>
 
@@ -17,7 +17,7 @@
 
     <collision>
       <geometry>
-        <mesh filename="package://vision_rpi_bot/meshes/base.dae" />
+        <mesh filename="package://vision_bot/meshes/base.dae" />
       </geometry>
     </collision>
 
