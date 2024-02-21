@@ -15,11 +15,11 @@ def generate_launch_description():
             executable='robot_state_publisher',
             name='rsp_node',
             arguments=[urdf_file_path]),
-        # Node(
-        #     package='joint_state_publisher_gui',
-        #     executable='joint_state_publisher_gui',
-        #     name='jst_gui'
-        # ),
+        Node(
+            package='joint_state_publisher_gui',
+            executable='joint_state_publisher_gui',
+            name='jst_gui'
+        ),
         Node(
             package='rviz2',
             executable='rviz2',
