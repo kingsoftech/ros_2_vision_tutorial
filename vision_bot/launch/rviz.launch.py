@@ -11,10 +11,6 @@ def generate_launch_description():
 
     return LaunchDescription([
         Node(
-            cmd=["gazebo","-s","libgazebo_ros_factory.so",],
-            output="screen",
-        ),
-        Node(
             package='robot_state_publisher',
             executable='robot_state_publisher',
             name='rsp_node',
@@ -29,8 +25,4 @@ def generate_launch_description():
             executable='rviz2',
             name='simulation_in_rviz',
         ),
-        Node(package="gazebo_ros",
-             executable="spawn_entity.py",
-             argument=["-topics","robot_description","-entity","vision_bot"],
-             output='screen'),
     ])
