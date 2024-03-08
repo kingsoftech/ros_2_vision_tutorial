@@ -30,6 +30,7 @@ setup(
             
                 'publisher_node = vision_bot.publisher:main',
                 'subscriber_node = vision_bot.subscriber:main',
+                'qr_maze_solving_node = vision_bot.qr_maze_drive:main',
         ],
 },
 )
